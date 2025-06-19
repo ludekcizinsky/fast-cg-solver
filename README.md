@@ -1,2 +1,2 @@
-# fast-cg-solver
-Implementation of Conjugate Gradient (CG) algorithm for solving sparse linear systems using MPI and CUDA.
+## Fast Conjugade Gradient Solver
+Implementation of Conjugate Gradient (CG) algorithm for solving sparse linear systems using MPI and CUDA. On a high level, the goal is to make full use of the available hardware resources and parallelise the CG algorithm using MPI (to make use multi-core CPUs) or CUDA (to make use available CUDA cores). See (instructions)[instructions.pdf] for more detail about the problem. Each folder includes report about the implementation, and scaling properties of the implementation.
